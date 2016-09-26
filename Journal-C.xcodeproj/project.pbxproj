@@ -12,6 +12,7 @@
 		FACD39EB1D99C3BF0099B4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39E91D99C3BF0099B4C5 /* Main.storyboard */; };
 		FACD39ED1D99C3BF0099B4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */; };
 		FACD39F01D99C3BF0099B4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EE1D99C3BF0099B4C5 /* LaunchScreen.storyboard */; };
+		FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACD39EF1D99C3BF0099B4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACD39F11D99C3BF0099B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD39FA1D99CC6A0099B4C5 /* APBEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntry.h; sourceTree = "<group>"; };
+		FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,9 @@
 		FACD39DF1D99C3BF0099B4C5 /* Journal-C */ = {
 			isa = PBXGroup;
 			children = (
+				FACD39F91D99CC480099B4C5 /* ViewController */,
+				FACD39F81D99CC3D0099B4C5 /* ModelController */,
+				FACD39F71D99CC360099B4C5 /* Model */,
 				FACD39E31D99C3BF0099B4C5 /* AppDelegate.h */,
 				FACD39E41D99C3BF0099B4C5 /* AppDelegate.m */,
 				FACD39E91D99C3BF0099B4C5 /* Main.storyboard */,
@@ -72,6 +78,29 @@
 				FACD39E11D99C3BF0099B4C5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACD39F71D99CC360099B4C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FACD39FA1D99CC6A0099B4C5 /* APBEntry.h */,
+				FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FACD39F81D99CC3D0099B4C5 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		FACD39F91D99CC480099B4C5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACD39E51D99C3BF0099B4C5 /* AppDelegate.m in Sources */,
+				FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */,
 				FACD39E21D99C3BF0099B4C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
