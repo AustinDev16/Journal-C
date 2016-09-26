@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FACD39E21D99C3BF0099B4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39E11D99C3BF0099B4C5 /* main.m */; };
 		FACD39E51D99C3BF0099B4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39E41D99C3BF0099B4C5 /* AppDelegate.m */; };
-		FACD39E81D99C3BF0099B4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39E71D99C3BF0099B4C5 /* ViewController.m */; };
 		FACD39EB1D99C3BF0099B4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39E91D99C3BF0099B4C5 /* Main.storyboard */; };
 		FACD39ED1D99C3BF0099B4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */; };
 		FACD39F01D99C3BF0099B4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EE1D99C3BF0099B4C5 /* LaunchScreen.storyboard */; };
@@ -20,8 +19,6 @@
 		FACD39E11D99C3BF0099B4C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FACD39E31D99C3BF0099B4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FACD39E41D99C3BF0099B4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FACD39E61D99C3BF0099B4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FACD39E71D99C3BF0099B4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FACD39EA1D99C3BF0099B4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACD39EF1D99C3BF0099B4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +57,6 @@
 			children = (
 				FACD39E31D99C3BF0099B4C5 /* AppDelegate.h */,
 				FACD39E41D99C3BF0099B4C5 /* AppDelegate.m */,
-				FACD39E61D99C3BF0099B4C5 /* ViewController.h */,
-				FACD39E71D99C3BF0099B4C5 /* ViewController.m */,
 				FACD39E91D99C3BF0099B4C5 /* Main.storyboard */,
 				FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */,
 				FACD39EE1D99C3BF0099B4C5 /* LaunchScreen.storyboard */,
@@ -105,6 +100,7 @@
 		FACD39D51D99C3BF0099B4C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = APB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Austin Blaser";
 				TargetAttributes = {
@@ -149,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACD39E81D99C3BF0099B4C5 /* ViewController.m in Sources */,
 				FACD39E51D99C3BF0099B4C5 /* AppDelegate.m in Sources */,
 				FACD39E21D99C3BF0099B4C5 /* main.m in Sources */,
 			);
