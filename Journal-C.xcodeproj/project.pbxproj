@@ -13,6 +13,7 @@
 		FACD39ED1D99C3BF0099B4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EC1D99C3BF0099B4C5 /* Assets.xcassets */; };
 		FACD39F01D99C3BF0099B4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EE1D99C3BF0099B4C5 /* LaunchScreen.storyboard */; };
 		FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */; };
+		FACD39FF1D99CDF90099B4C5 /* APBEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39FE1D99CDF90099B4C5 /* APBEntryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FACD39F11D99C3BF0099B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACD39FA1D99CC6A0099B4C5 /* APBEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntry.h; sourceTree = "<group>"; };
 		FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntry.m; sourceTree = "<group>"; };
+		FACD39FD1D99CDF90099B4C5 /* APBEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntryController.h; sourceTree = "<group>"; };
+		FACD39FE1D99CDF90099B4C5 /* APBEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		FACD39F81D99CC3D0099B4C5 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				FACD39FD1D99CDF90099B4C5 /* APBEntryController.h */,
+				FACD39FE1D99CDF90099B4C5 /* APBEntryController.m */,
 			);
 			name = ModelController;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACD39FF1D99CDF90099B4C5 /* APBEntryController.m in Sources */,
 				FACD39E51D99C3BF0099B4C5 /* AppDelegate.m in Sources */,
 				FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */,
 				FACD39E21D99C3BF0099B4C5 /* main.m in Sources */,
