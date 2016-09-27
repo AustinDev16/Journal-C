@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Entry List Table View Controller-->
         <scene sceneID="j4e-tM-dgi">
             <objects>
-                <tableViewController id="a3S-nv-lVS" sceneMemberID="viewController">
+                <tableViewController id="a3S-nv-lVS" customClass="APBEntryListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="93n-Yt-TEA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
                     <navigationItem key="navigationItem" id="bH3-a9-SIM">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="89E-7I-Vhb">
                             <connections>
-                                <segue destination="Drj-13-CBO" kind="show" identifier="toDetailAddNew" id="7sW-Yl-Gcr"/>
+                                <segue destination="Drj-13-CBO" kind="show" id="kXp-zk-CZa"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="1124" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="qTK-0U-c45">
             <objects>
-                <viewController id="Drj-13-CBO" sceneMemberID="viewController">
+                <viewController id="Drj-13-CBO" customClass="APBEntryDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mxf-Ws-t6Q"/>
                         <viewControllerLayoutGuide type="bottom" id="BE6-v2-JLo"/>
@@ -90,6 +90,17 @@
                             <constraint firstItem="BE6-v2-JLo" firstAttribute="top" secondItem="F28-Tf-GDv" secondAttribute="bottom" id="Hep-oe-pwn"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="moN-XG-Mzz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="mmC-h6-eeo">
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="Drj-13-CBO" id="cnJ-7D-aXO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textTextField" destination="cE3-k5-qkG" id="jjX-xh-eZH"/>
+                        <outlet property="titleTextField" destination="dKb-Bs-0ke" id="8NL-Gt-MPO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qE-zR-gcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,6 +126,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7sW-Yl-Gcr"/>
+        <segue reference="kXp-zk-CZa"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -14,6 +14,8 @@
 		FACD39F01D99C3BF0099B4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD39EE1D99C3BF0099B4C5 /* LaunchScreen.storyboard */; };
 		FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */; };
 		FACD39FF1D99CDF90099B4C5 /* APBEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD39FE1D99CDF90099B4C5 /* APBEntryController.m */; };
+		FACD3A021D99DC7C0099B4C5 /* APBEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD3A011D99DC7C0099B4C5 /* APBEntryListTableViewController.m */; };
+		FACD3A051D99DC8B0099B4C5 /* APBEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD3A041D99DC8B0099B4C5 /* APBEntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		FACD39FB1D99CC6A0099B4C5 /* APBEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntry.m; sourceTree = "<group>"; };
 		FACD39FD1D99CDF90099B4C5 /* APBEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntryController.h; sourceTree = "<group>"; };
 		FACD39FE1D99CDF90099B4C5 /* APBEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntryController.m; sourceTree = "<group>"; };
+		FACD3A001D99DC7C0099B4C5 /* APBEntryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntryListTableViewController.h; sourceTree = "<group>"; };
+		FACD3A011D99DC7C0099B4C5 /* APBEntryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntryListTableViewController.m; sourceTree = "<group>"; };
+		FACD3A031D99DC8B0099B4C5 /* APBEntryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBEntryDetailViewController.h; sourceTree = "<group>"; };
+		FACD3A041D99DC8B0099B4C5 /* APBEntryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBEntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 		FACD39F91D99CC480099B4C5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FACD3A001D99DC7C0099B4C5 /* APBEntryListTableViewController.h */,
+				FACD3A011D99DC7C0099B4C5 /* APBEntryListTableViewController.m */,
+				FACD3A031D99DC8B0099B4C5 /* APBEntryDetailViewController.h */,
+				FACD3A041D99DC8B0099B4C5 /* APBEntryDetailViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -180,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACD39FF1D99CDF90099B4C5 /* APBEntryController.m in Sources */,
+				FACD3A051D99DC8B0099B4C5 /* APBEntryDetailViewController.m in Sources */,
+				FACD3A021D99DC7C0099B4C5 /* APBEntryListTableViewController.m in Sources */,
 				FACD39E51D99C3BF0099B4C5 /* AppDelegate.m in Sources */,
 				FACD39FC1D99CC6A0099B4C5 /* APBEntry.m in Sources */,
 				FACD39E21D99C3BF0099B4C5 /* main.m in Sources */,
