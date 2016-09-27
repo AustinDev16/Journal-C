@@ -23,11 +23,13 @@
     NSString *title = self.titleTextField.text;
     NSString *text = self.textTextField.text;
     
-   
+    
+    [self.titleTextField resignFirstResponder];
+    [self.textTextField resignFirstResponder];
     
     [[APBEntryController sharedController] addEntryWithTitle:title text:text];
     
-    [self.presentingViewController dismissViewControllerAnimated:true completion:nil];
+    [self.navigationController popViewControllerAnimated:true];
     
 }
 
@@ -37,6 +39,8 @@
     if (self.entry != nil){
         [self updateViewWithEntry:self.entry];
     }
+    
+    
 }
 
 -(void)updateViewWithEntry:(APBEntry *)entry

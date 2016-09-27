@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Entries";
+    self.definesPresentationContext = true;
 }
 
 -(void)viewWillAppear:(BOOL)animated{
